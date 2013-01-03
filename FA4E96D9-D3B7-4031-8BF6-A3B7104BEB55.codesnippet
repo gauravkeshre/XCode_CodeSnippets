@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@docmeth</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**------------------
+ @name &lt;#Method name#&gt;
+ --------------------*/
+
+/*!
+ @abstract &lt;#brief description of the method#&gt;
+
+ @param &lt;#parameter name#&gt; &lt;#description#&gt;
+ @return &lt;#return type#&gt; &lt;#description#&gt;
+
+ @see &lt;#other method#&gt;
+ @see &lt;#other method#&gt;
+ 
+ @bug &lt;#bug if it is not stable#&gt;
+ @warning &lt;#warning text#&gt;
+ */</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FA4E96D9-D3B7-4031-8BF6-A3B7104BEB55</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Used for adding documentation for methodsin the .h files</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Method Documentation comment</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@enfast</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [&lt;#collection#&gt; enumerateObjectsUsingBlock:^(id obj, NSUInteger index, BOOL *stop){
+        &lt;#code here#&gt;
+    }];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FE36229F-2DB1-4BC4-8E46-E3562690748D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Used for enumerating a colection type using fast enumeration</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Fast Enumeration</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
