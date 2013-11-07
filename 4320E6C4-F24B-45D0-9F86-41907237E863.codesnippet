@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@datasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark TableView DataSource Methods
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return &lt;#Number Of Cell#&gt;;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIdentifier = @"&lt;#Cell Identifier#&gt;";
+    &lt;#Cell Class Name#&gt; *cell = [self.tableViewServices dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (!cell)
+    {
+        cell = [[&lt;#Cell Class Name#&gt; alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+    }
+    //Configure Cell Properties
+    return cell;
+}
+
+#pragma Mark Table View Delegate Methods
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    &lt;#Controller Class Name#&gt; *&lt;#Object Name#&gt; = [self.storyboard instantiateViewControllerWithIdentifier:@"&lt;#ViewController Identifier#&gt;"];
+    [&lt;#Navigation Controller Reference#&gt; pushViewController:&lt;#Object Name#&gt; animated:YES];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4320E6C4-F24B-45D0-9F86-41907237E863</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TableViewData Source</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@image</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>StringOrComment</string>
+		<string>CodeBlock</string>
+		<string>CodeExpression</string>
+		<string>ClassInterfaceMethods</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[UIImage imageNamed:@"&lt;#image_name#&gt;.png"]</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9FB21108-E56B-4212-9CB7-DB7A364B687E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImage</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
